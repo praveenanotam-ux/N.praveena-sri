@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <body>
+            <h1>Couses</h1>
+            <ul>
+                <li>CSE</li>
+                <li>CST</li>
+                <li>CSM</li>
+                <li>ECT</li>
+                <li>EEE</li>
+            </ul>
+        </body>
+    </head>
+</html>
