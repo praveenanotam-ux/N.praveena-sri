@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>QUANTUM COMPUTING EXAM</h1>
+<form action="/action_page.php" method="get" target="_blank">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="Reg.no">Register no:</label>
+  <input type="text" id="Reg.no" no="Reg.no"><br><br>
+  <label for="branch">Branch no:</label>
+  <input type="text" id="branch" no="branch"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" value="Check">
+
+</form>
+
+</body>
+</html>
+
