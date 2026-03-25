@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+  outline-style: dotted;
+}
+</style>
+</head>
+<body>
+
+<h1>This is my frist css topic</h1>
+
+<h2>My topic is outline</h2>
+<P>the outline property is used to draw a line around an element, outside its border, to make it stand out. Unlike borders, outlines do not take up space in the layout and may overlap other elements. The outline property is a shorthand that can include the outline width, style, and color. For example, you can set an outline using values like outline: 2px solid red;. There are also individual properties such as outline-width, outline-style, and outline-color for more control. Additionally, the outline-offset property allows you to adjust the distance between the outline and the element’s edge. Outlines are commonly used for accessibility purposes, such as highlighting focused elements like buttons or input fields, helping users navigate a webpage more easily.</p>
+</body>
+</html>
