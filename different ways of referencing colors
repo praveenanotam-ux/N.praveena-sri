@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Color Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      padding: 20px;
+      margin: 10px 0;
+      color: white;
+    }
+
+    /* 1. Named color */
+    .named {
+      background-color: red;
+    }
+
+    /* 2. Hex */
+    .hex {
+      background-color: #3498db;
+    }
+
+    /* 3. RGB */
+    .rgb {
+      background-color: rgb(46, 204, 113);
+    }
+
+    /* 4. RGBA */
+    .rgba {
+      background-color: rgba(155, 89, 182, 0.6);
+    }
+
+    /* 5. HSL */
+    .hsl {
+      background-color: hsl(39, 100%, 50%);
+    }
+
+    /* 6. HSLA */
+    .hsla {
+      background-color: hsla(200, 100%, 50%, 0.5);
+    }
+
+    /* 7. CSS Variable */
+    :root {
+      --main-color: #e74c3c;
+    }
+
+    .variable {
+      background-color: var(--main-color);
+    }
+  <h1>CSS Color Formats Demo</h1>
+  <div class="box named">HI</div>
+  <div class="box hex">Hello</div>
+<div class="box rgb">Welcome </div>
+  <div class="box rgba">to</div>
+  <div class="box hsl">my</div>
+  <div class="box hsla">colourful</div>
+  <div class="box variable">World</div>
+</body>
+</html>
