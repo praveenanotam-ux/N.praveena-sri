@@ -1,0 +1,22 @@
+<!DOCTYPE! HTML>
+<html>
+<style>
+div{
+ border:10px solid black;
+  background_color:lightgreen;
+ paddind-top:100px;
+ padding-right:50px;
+ padding-down:100px;
+ padding-left:50px;
+</style>
+<body>
+<h1>Importance of css Box mode</h1>
+<div>
+1.contect
+2.Border
+3.Margin
+4.Padding
+</div>
+</body>
+</html>
+
