@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charsel="UTF-8">
+<title>css selector forms</title>
+<style>
+p{
+color=blue;
+}
+{
+color = red;
+font = weight:bold;
+}
+highlight{
+background-color:yellow;
+}
+h1,h2{
+text_align:center;
+}
+{
+font_family:Arial,sens-serif;
+}
+divp{
+color:green;
+}
+div>span{
+Color:purple;
+}
+h2+p{
+font_style:italic;
+}
+h2-p{
+Font-style:18px;
+a:hover{
+color:red;
+}
+p:first_letter{
+font-size:25px;
+color:brown;
+}
+input(type="text"){
+border:2px solid blue;
+}
+</style>
+</head>
+<body>
+<h1>css selector forms</h1>
+<h2>simple selectors</h2>
+<p>This is a Paragraph</p>
+<p class = "special">This Paragraph uses id selector</p>
+<p class = "highlight">This Paragraph uses class selector</p>
+<div>
+<p>Paragraph inside div</p>
+<span>span inside div</span>
+</div>
+<h2>combinator selectors</h2>
+<p>This Paragraph is adjacent to h2</p>
+<p>This paragraph is a general sibling</p>
+<h2>Attribute selector</h2>
+<input type = "text" placeholder = "Textfield">
+<br><br>
+<input type="Password"placeholder="password field">
+</body>
+</html>
+
+
