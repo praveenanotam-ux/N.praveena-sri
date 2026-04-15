@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset ="UTF-8">
+<title>CSS BOX Model</title>
+<style>
+box{
+width:300px;
+content"Sample Content";
+padding:200px;
+border:spx solid due;
+margin:30px;
+background_color:#ecfof1;
+font family:Arial,sans_serif;
+}
+h2{
+text_align:center;
+}
+</style>
+<head>
+<body>
+<h2>CSS BOX MODEL</h2>
+<div class ="box">
+This area represented the<string>contnt</string>of the box
+<div>
+</body>
+</html>
