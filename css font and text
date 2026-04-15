@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Font and Text Properties</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+}
+.size {
+font-size: 24px;
+}
+.weight {
+font-weight: bold;
+}
+.style {
+font-style: italic;
+}
+.decoration {
+text-decoration: underline;
+}
+.transform {
+text-transform: uppercase;
+}
+.alignment {
+text-align: center;
+}
+p {
+margin: 10px 0;
+}
+</style>
+</head>
+
+<body>
+<h1 class="alignment">CSS Font and Text Properties</h1>
+<p class="size">This text demonstrates font-size property.</p>
+<p class="weight">This text demonstrates font-weight property.</p>
+<p class="style">This text demonstrates font-style property.</p>
+<p class="decoration">This text demonstrates text-decoration property.</p>
+<p class="transform">This text demonstrates text-transform property.</p>
+<p class="alignment">This text demonstrates text-align property.</p>
+</body>
+</html>
