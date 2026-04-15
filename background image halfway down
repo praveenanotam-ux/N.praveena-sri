@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Background Image</title>
+<style>
+body {
+height: 1500px; /* Added to enable scrolling */
+margin: 0;
+font-family: Arial, sans-serif;
+
+background-image: url("https://images.pexels.com/photos/129731/pexels-photo-
+129731.jpeg");
+
+background-repeat: repeat-x; 
+background-position: center 50%; 
+background-attachment: fixed; 
+}
+h1 {
+text-align: center;
+padding-top: 20px;
+}
+p {
+margin: 40px;
+font-size: 18px;
+}
+</style>
+</head>
+<body>
+<h1>CSS Background Image Demonstration</h1>
+
+<p>
+Scroll the page to observe that the background image remains fixed in position,
+tiles horizontally, and appears halfway down the page.
+</p>
+<p>
+This example demonstrates the use of background-image, background-repeat,
+background-position, and background-attachment properties in CSS.
+</p>
+</body>
+</html>
