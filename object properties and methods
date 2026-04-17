@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document Object Demo</title>
+<script>
+function showDocumentInfo(){
+document.getElementById("title").innerHTML="Document Title:",+document.title;
+document.getElementById("url").innerHTML="Document URL:"+document.URL;
+var pCount=document.getElementsByTagName("p").length;
+document.getElementById("count").innerHTML="Number of<p>tags:"+pCount;
+}
+function writeMessage(){
+documents.write("This text is written using document.write()");
+}
+</script>
+</head>
+<body onload="showDocumentInfo()">
+<h2>Document Object Properties and Methods</h2>
+<p id="title"></p>
+<p id="url"></p>
+<p id="count"></p>
+<p>This is paragraph one.</p>
+<p>This is paragraph two.</p>
+<button onclick="writeMessage()">Use document.write()</button>
+</body>
+</html>
