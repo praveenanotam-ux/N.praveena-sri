@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Object Demo</title>
+<script>
+function arrayDemo() {
+// Create an array
+var fruits = ["Apple", "Banana", "Orange"];
+var output = "";
+// Array property
+output += "Array Elements: " + fruits.join(", ") + "<br>";
+output += "Array Length: " + fruits.length + "<br><br>";
+// Array methods
+fruits.push("Mango");
+output += "After push(): " + fruits.join(", ") + "<br>";
+fruits.pop();
+output += "After pop(): " + fruits.join(", ") + "<br>";
+
+fruits.unshift("Grapes");
+output += "After unshift(): " + fruits.join(", ") + "<br>";
+fruits.shift();
+output += "After shift(): " + fruits.join(", ") + "<br>";
+fruits.sort();
+output += "After sort(): " + fruits.join(", ") + "<br>";
+document.getElementById("result").innerHTML = output;
+}
+</script>
+</head>
+<body onload="arrayDemo()">
+<h2>Array Object Properties and Methods</h2>
+<p id="result"></p>
+</body>
+</html>
