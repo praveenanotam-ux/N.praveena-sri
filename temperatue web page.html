@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="startBtn">start</button>
+        <script>
+        function praveena() 
+        {
+           let url = "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m"
+           fetch(url)
+           .then(response => response.json())
+           .then(data =>{
+            let temp = data.current.temperature_2m;
+            let units = data.current.temperature_2m;
+            document.getElementById("start").textContent = "Current Temperature: " +temp+" "+units
+           });
+        }
+        praveena();
+        </script>
+        
+    
+</body>
+</html>
